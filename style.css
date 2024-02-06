@@ -1,0 +1,353 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    overflow: none;
+}
+
+.part1{
+    width: 100vw;
+    height: 900px;
+    background-image: url(/sfondo-1.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -5%;
+}
+
+#title{
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    font-size: 115px;
+    height: 70px;
+    margin-top: 300px;
+    opacity: 100%;
+}
+
+#inquirenow{
+    width: 208px;
+    height: 64px;
+    background-color: #cce859;
+    font-size: 20px;
+    font-family: 'Arimo', sans-serif;
+    margin-top: 20px;
+    transition: transform 0.2s;
+}
+
+#titlename{
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    font-size: 22px;
+    margin-top: 70px;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-radius: 10px;
+}
+
+.part2{
+    width: 100vw;
+    height: 900px;
+    background-color: #2d5fcf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#paragraph1{
+    width: 660px;
+    height: 366px;
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    font-size: 175%;
+    text-align: left;
+}
+
+#image1{
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+
+#blackcircle{
+    border-radius: 80%;
+    margin-left: -26px;
+    margin-bottom: 330px;
+}
+
+.part3{
+    width: 100vw;
+    height: 900px;
+    background-color: #cce859;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#titlepart3{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 50px;
+}
+
+.img2e3{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#image2{
+    margin-bottom:30px;
+    border-radius: 7%;
+}
+
+#image3{
+    margin-bottom: 30px;
+    border-radius: 7%;
+}
+
+#img2background{
+    background-color: #2d5fcf;
+    width: 368px;
+    height: 500px;
+    border-radius: 8%;
+    margin-right: 150px;
+}
+
+#img3background{
+    background-color: #2d5fcf;
+    width: 368px;
+    border-radius: 8%;
+}
+
+#titleimg2{
+    margin-left: 55px;
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    font-size: x-large;
+}
+
+#titleimg3{
+    margin-left: 30px;
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    font-size: x-large;
+}
+
+.part4{
+    width: 100vw;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#titlepart4{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 50px;
+}
+
+.img456{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#image4{
+    margin-bottom:30px;
+    border-radius: 7%;
+}
+
+#image5{
+    margin-bottom: 30px;
+    border-radius: 7%;
+}
+#image6{
+    margin-bottom: 30px;
+    border-radius: 7%;
+}
+
+#img4background{
+    background-color: #2d5fcf;
+    width: 400px;
+    height: 400px;
+    border-radius: 8%;
+    margin-right: 30px;
+}
+
+#img5background{
+    background-color: #2d5fcf;
+    width: 400px;
+    border-radius: 8%;
+    margin-right: 30px;
+}
+
+#img6background{
+    background-color: #2d5fcf;
+    width: 400px;
+    border-radius: 8%;
+}
+
+#titleimg4{
+    margin-left: 55px;
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    font-size: x-large;
+}
+
+#titleimg5{
+    margin-left: 30px;
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    font-size: x-large;
+}
+
+#titleimg6{
+    margin-left: 30px;
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    font-size: x-large;
+}
+
+.part5{
+    width: 100vw;
+    height: 900px;
+    background-color: #2d5fcf;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#titlepart5{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
+
+#table{
+    margin-top: 80px;
+}
+
+#tname1{
+    padding-right: 130px;
+    color: #b0c655;
+    font-family: 'DM Sans', sans-serif;
+    font-size: x-large;
+    padding-left: 20px;
+}
+#tname2{
+    padding-right: 130px;
+    color: #b0c655;
+    font-family: 'DM Sans', sans-serif;
+    font-size: x-large;
+    padding-left: 20px;
+}
+#tname3{
+    padding-right: 130px;
+    color: #b0c655;
+    font-family: 'DM Sans', sans-serif;
+    font-size: x-large;
+    padding-left: 20px;
+}
+
+#pt5p{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 200px;
+}
+
+#tp1{
+    width: 300px;
+    font-size: 18px;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    margin-left: 100px;
+}
+#tp2{
+    width: 300px;
+    font-size: 18px;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    margin-left: 80px;
+}
+#tp3{
+    width: 300px;
+    font-size: 18px;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    margin-left:180px;
+}
+
+#tabphoto1{
+    border-radius: 16%;
+}
+#tabphoto2{
+    border-radius: 16%;
+}
+#tabphoto3{
+    border-radius: 16%;
+}
+
+.part6{
+    width: 100vw;
+    height: 900px;
+    background-color: #cce859;
+    display: flex;
+    justify-content: center;
+}
+
+#titlepart6{
+    font-size: 60px;
+    font-family: 'DM Sans', sans-serif;
+    margin-left: 50px;
+    margin-top: -40px;
+}
+
+#img10{
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+#part6p{
+    margin-left: 50px;
+}
+
+#bluecircle{
+    overflow: visible;
+    width: 80px;
+    position: absolute;
+    border-radius: 80%;
+    margin-left: -30px;
+    margin-top: 270px;
+}
+
+#buttonfooter{
+    background-color: #2d5fcf;
+    width: 180px;
+    height: 45px;
+    border-radius: 4px;
+    margin-left: 50px;
+    border: none;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    transition: transform 0.2s;
+    
+}
+
+.list{
+    font-family: Arimo;
+}
+
+#inquirenow:hover{
+    box-shadow: 4px 4px 9px rgb(120, 120, 120);
+    transform: scale(110%);
+}
+
+#buttonfooter:hover{
+    transform: scale(110%);
+}
+
+#buttonfooter:active{
+    box-shadow: 3px 3px 8px rgb(0, 0, 0);
+    background-color: #0034a5;
+}
