@@ -5,6 +5,14 @@ body{
     flex-direction: column;
     overflow-x: hidden;
     display: flex;
+
+    .social{
+        position: fixed;
+        right: 40px;
+        scale: 180%;
+        top: 20px;
+        color: blue;
+    }
 }
 
 .part1{
@@ -22,7 +30,7 @@ body{
 #title{
     font-family: 'DM Sans', sans-serif;
     color: white;
-    font-size: 115px;
+    font-size: 100px;
     height: 70px;
     opacity: 100%;
 }
@@ -31,10 +39,12 @@ body{
     width: 208px;
     height: 64px;
     background-color: #cce859;
-    font-size: 20px;
+    font-size: 18px;
+    border-radius: 12px;
     font-family: 'Arimo', sans-serif;
     margin-top: 20px;
     transition: transform 0.2s;
+    margin-top: 30px;
 }
 
 #titlename{
@@ -366,14 +376,36 @@ body{
 @keyframes moveupdown{
     0%{
         transform: translateY(0);
-
+        
     }
     100%{
         transform: translateY(-50px);
-
+        
     }
 }
 
+
+.loading{
+    position: fixed;
+    border: 10px solid #f3f3f3;
+    border-top: 10px solid rgba(255, 0, 0, 0);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    right: 48%;
+    top: 72%;
+    animation: spin 2s linear infinite;
+    display: none;
+}
+
+#inquirenow:focus + .loading{
+    display:block;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
 
 @media screen and (max-width: 678px) {
     
@@ -401,6 +433,6 @@ body{
     #blackcircle{
         display: none;
     }
-
-
+    
+    
 }
