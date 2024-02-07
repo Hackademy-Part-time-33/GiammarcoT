@@ -1,14 +1,15 @@
 
 body{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     flex-direction: column;
-    overflow: none;
+    overflow-x: hidden;
+    display: flex;
 }
 
 .part1{
     width: 100vw;
-    height: 900px;
+    height: 100vh;
     background-image: url(/sfondo-1.jpg);
     background-size: cover;
     display: flex;
@@ -23,7 +24,6 @@ body{
     color: white;
     font-size: 115px;
     height: 70px;
-    margin-top: 300px;
     opacity: 100%;
 }
 
@@ -53,6 +53,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 #paragraph1{
@@ -91,8 +92,8 @@ body{
 
 .img2e3{
     display: flex;
-    justify-content: center;
-    width: 100%;
+    flex-wrap: wrap;
+    gap: 60px;
 }
 
 #image2{
@@ -110,7 +111,6 @@ body{
     width: 368px;
     height: 500px;
     border-radius: 8%;
-    margin-right: 150px;
 }
 
 #img3background{
@@ -262,30 +262,27 @@ body{
     font-size: 18px;
     color: white;
     font-family: 'DM Sans', sans-serif;
-    margin-left: 100px;
+    position: absolute;
+    left: 140px;
 }
 #tp2{
     width: 300px;
     font-size: 18px;
     color: white;
     font-family: 'DM Sans', sans-serif;
-    margin-left: 80px;
+    position: absolute;
+    right: 730px;
 }
 #tp3{
     width: 300px;
     font-size: 18px;
     color: white;
     font-family: 'DM Sans', sans-serif;
-    margin-left:180px;
+    position: absolute;
+    right: 250px;
 }
 
-#tabphoto1{
-    border-radius: 16%;
-}
-#tabphoto2{
-    border-radius: 16%;
-}
-#tabphoto3{
+#tabphoto1, #tabphoto2, #tabphoto3{
     border-radius: 16%;
 }
 
@@ -350,4 +347,60 @@ body{
 #buttonfooter:active{
     box-shadow: 3px 3px 8px rgb(0, 0, 0);
     background-color: #0034a5;
+}
+
+#title{
+    
+    transition: 1s;
+    transform: scale(120%);
+}
+
+
+.arrow{
+    position: fixed;
+    top: 90vh;
+    left: 48%;
+    animation: moveupdown 0.6s infinite alternate;
+}
+
+@keyframes moveupdown{
+    0%{
+        transform: translateY(0);
+
+    }
+    100%{
+        transform: translateY(-50px);
+
+    }
+}
+
+
+@media screen and (max-width: 678px) {
+    
+    .part1{
+        width: auto;
+        height: auto;
+    }
+    
+    .part3{
+        height: auto;
+        margin: 0;
+    }
+    
+    
+    #title{
+        font-size: 1.5em;
+    }
+    
+    
+    #inquirenow{
+        scale: 50%;
+    }
+    
+    
+    #blackcircle{
+        display: none;
+    }
+
+
 }
